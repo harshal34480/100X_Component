@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-black">
+    <!-- Default First input start -->
+    <section class="flex flex-col gap-5 ml-10">
+      <p class="text-white">Default :</p>
+      <fieldset class="w-426 py-4 px-3 border border-neutral-500 rounded">
+        <legend
+          class="text-sm font-inter not-italic font-medium leading-normal text-neutral-500 px-1">
+          Label
+        </legend>
+        <input
+          type="text"
+          class="outline-none placeholder: font-inter text-xl not-italic font-normal leading-normal text-neutral-500 bg-transparent"
+          placeholder="label" />
+      </fieldset>
+      <!-- Default First input end -->
+
+      <!-- Selected Second input start -->
+      <p class="text-white">Selected :</p>
+      <fieldset class="w-426 py-4 px-3 border border-tblue rounded">
+        <legend
+          class="text-sm font-inter not-italic font-medium leading-normal text-tblue">
+          Label
+        </legend>
+        <div class="flex justify-between items-center relative">
+          <input
+            type="text"
+            class="outline-none text-white placeholder: font-inter text-xl not-italic font-normal leading-normal bg-transparent"
+            placeholder="label" />
+          <img src="/src/images/icon.svg" alt="green_tick" class="self-end" />
+        </div>
+      </fieldset>
+    </section>
+    <!--Selected Second input end -->
+
+    <!--  Default avatar + input start-->
+    <section class="flex flex-col gap-5 mt-10 mb-10 ml-10">
+      <section>
+        <div class="flex gap-3">
+          <p class="text-white">Default :</p>
+          <img src="/src/images/user-avatar.png" alt="user-avatar" />
+          <input
+            type="text"
+            class="outline-none placeholder: text-neutral-600 font-inter text-xl not-italic font-normal leading-normal bg-transparent"
+            placeholder="What's happening?!" />
+        </div>
+      </section>
+      <!-- Default avatar+input end -->
+
+      <!-- Filled avatar+input start -->
+      <section>
+        <div class="flex gap-3">
+          <p class="text-white">Selected :</p>
+          <img src="/src/images/user-avatar.png" alt="user-avatar" />
+          <input
+            class="outline-none text-white placeholder: font-inter text-xl not-italic font-normal leading-normal bg-transparent"
+            type="text"
+            placeholder="What's happening?!" />
+        </div>
+      </section>
+    </section>
+    <!-- Filled avatar+input end -->
+
+    <!-- default search start -->
+    <section class="flex flex-col gap-5 ml-10">
+      <section>
+        <p class="text-white">Default</p>
+        <div class="flex gap-4 w-348 py-ten items-center bg-sBar rounded-full">
+          <img
+            src="/src/images/dark-theme-search-group.svg"
+            alt="search_option"
+            class="pl-4" />
+          <input
+            type="text"
+            class="outline-none placeholder:font-chirp text-base not-italic font-normal leading-normal text-neutral-600 bg-transparent"
+            placeholder="Search" />
+        </div>
+        <!-- Default search end -->
+
+        <!-- Filled search start -->
+        <p class="text-white">Filled</p>
+        <div
+          class="flex gap-4 w-348 py-ten items-center bg-sBar rounded-full border border-tblue">
+          <img
+            src="/src/images/search_filled.svg"
+            alt="search_option"
+            class="pl-4" />
+          <input
+            type="text"
+            class="outline-none placeholder:font-chirp text-base not-italic font-normal leading-normal text-neutral-600 bg-transparent"
+            placeholder="Search" />
+        </div>
+      </section>
+    </section>
+    <!-- Filled search end -->
+  </body>
+</html>
