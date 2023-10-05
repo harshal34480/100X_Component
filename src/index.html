@@ -10,11 +10,30 @@
       href="path_to_your_font_directory/Chirp-VariableFont_wght.ttf" />
   </head>
   <body class="bg-black">
-    <section class="flex flex-col gap-5">
-      <p class="text-white">assignment 1.1</p>
-      <!-- Default Buttons start -->
+    <!-- <section class="flex flex-col gap-5"> -->
+    <!-- <p class="text-white">assignment 1.1</p> -->
+    <!-- Default Buttons start -->
+    <header>
+      <ul class="flex gap-5 bg-neutral-400 text-white py-5 px-5">
+        <li><a href="/src/index.html">Assignment 1.2 - Button Component</a></li>
+        <li>
+          <a href="/src/input_component.html"
+            >Assignment 1.2 - Input component</a
+          >
+        </li>
+        <li>
+          <a href="/src/cardComponent.html">Assignment 1.3 - Card Component</a>
+        </li>
+        <li>
+          <a href="/src/tweet_component.html"
+            >Assignment 1.4 - Tweet Component</a
+          >
+        </li>
+      </ul>
+    </header>
+    <fieldset class="py-5 px-5 border-2 border-white">
+      <legend class="text-white text-lg px-5 font-bold">Default</legend>
       <section class="flex gap-8">
-        <p class="text-white">Default</p>
         <!-- Create account default button -->
         <button
           class="py-2 px-6 w-82 flex justify-center rounded-65 bg-neutral-50 items-center font-inter font-bold not-italic leading-normal text-base text-neutral-1000">
@@ -46,11 +65,13 @@
           Post
         </button>
       </section>
-      <!-- Default Button End -->
+    </fieldset>
+    <!-- Default Button End -->
 
-      <!-- Hover Button Start -->
+    <!-- Hover Button Start -->
+    <fieldset class="py-5 px-5 border-2 border-white">
+      <legend class="text-white text-lg px-5 font-bold">Hover</legend>
       <section class="flex gap-8">
-        <p class="text-white">Hover</p>
         <!-- Hover create button -->
         <button
           class="py-2 px-6 w-82 flex justify-center rounded-full bg-neutral-200 items-center font-inter font-bold not-italic leading-normal text-base text-neutral-1000">
@@ -82,11 +103,13 @@
           Post
         </button>
       </section>
-      <!-- Hover Button end -->
+    </fieldset>
+    <!-- Hover Button end -->
 
-      <!-- Disable button start -->
+    <!-- Disable button start -->
+    <fieldset class="py-5 px-5 border-2 border-white">
+      <legend class="text-white text-lg px-5 font-bold">Disabled</legend>
       <section class="flex gap-8">
-        <p class="text-white">Disabled</p>
         <!-- Disable create button -->
         <button
           class="py-2 px-6 w-82 flex justify-center rounded-full bg-neutral-500 items-center font-inter font-bold not-italic leading-normal text-base text-neutral-1000 cursor-not-allowed">
@@ -119,11 +142,13 @@
           Post
         </button>
       </section>
-      <!-- Disable button end -->
+    </fieldset>
+    <!-- Disable button end -->
 
-      <!-- Outline button start -->
+    <!-- Outline button start -->
+    <fieldset class="py-5 px-5 border-2 border-white">
+      <legend class="text-white text-lg px-5 font-bold">Outline</legend>
       <section class="flex gap-5">
-        <p class="text-white">outline</p>
         <button
           class="py-2 px-6 w-334 flex justify-center items-center border border-bstroke rounded-full">
           <p
@@ -139,9 +164,12 @@
           </p>
         </button>
       </section>
-      <!-- Outline button end -->
+    </fieldset>
+    <!-- Outline button end -->
 
-      <!-- Selected and default button -->
+    <!-- Selected and default button -->
+    <fieldset class="py-5 px-5 border-2 border-white">
+      <legend class="text-white text-lg px-5 font-bold">Buttons</legend>
       <section>
         <div
           class="flex justify-center px-20 py-5 w-598 gap-40 text-neutral-50 text-base not-italic font-medium leading-normal font-chirp border-b">
@@ -152,9 +180,12 @@
           <p>Following</p>
         </div>
       </section>
-      <!-- Selected and default button end -->
+    </fieldset>
+    <!-- Selected and default button end -->
 
-      <!-- Icons -->
+    <!-- Icons -->
+    <fieldset class="py-5 px-5 border-2 border-white">
+      <legend class="text-white text-lg px-5 font-bold">Icons</legend>
       <section class="flex flex-col gap-5">
         <p class="text-white">Default icons</p>
         <div class="flex gap-5">
@@ -167,6 +198,7 @@
           <img src="/src/images/group_filled.svg" alt="group_filled" />
         </div>
       </section>
-    </section>
+    </fieldset>
+    <!-- </section> -->
   </body>
 </html>
